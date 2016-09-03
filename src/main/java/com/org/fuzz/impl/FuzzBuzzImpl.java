@@ -15,8 +15,8 @@
  *-------------------------------------------------------- 
  * 
  * Fichier 		:	FuzzBuzz.java
- * Cree le 		: 	3 sept. 2016 à 14:53:00
- * Auteur		: 	admin
+ * Cree le 		: 	3 sept. 2016 Ã  14:53:00
+ * Auteur		: 	mmenhour
  * 
  * Description 	:
  * 
