@@ -16,7 +16,7 @@
  * 
  * Fichier 		:	FuzzBuzzTest.java
  * Cree le 		: 	3 sept. 2016 à 15:43:03
- * Auteur		: 	admin
+ * Auteur		: 	mmenhour
  * 
  * Description 	:
  * 
