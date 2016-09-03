@@ -35,6 +35,7 @@ package com.org.fuzz;
 public interface FuzzBuzz
 {
    /**
+    * Takes as input an integer and returns a String under the rules of the program.
     * 
     * @param value : int
     * @return : String 
