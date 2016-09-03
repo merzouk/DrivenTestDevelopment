@@ -15,7 +15,7 @@
  *-------------------------------------------------------- 
  * 
  * Fichier 		:	FuzzBuzzTest.java
- * Cree le 		: 	3 sept. 2016 à 15:43:03
+ * Cree le 		: 	3 sept. 2016 Ã  15:43:03
  * Auteur		: 	admin
  * 
  * Description 	:
@@ -95,8 +95,12 @@ public class FuzzBuzzTest
       Assert.assertEquals( ConstantesUtils.FUZZ, out );
       out = fuzzBuzz.fuzzBuzz( 5 );
       Assert.assertEquals( ConstantesUtils.BUZZ, out );
+      out = fuzzBuzz.fuzzBuzz( 15 );
+      Assert.assertEquals( ConstantesUtils.FUZZ + ConstantesUtils.BUZZ, out );
       out = fuzzBuzz.fuzzBuzz( 7 );
       Assert.assertEquals( ConstantesUtils.BAZ, out );
+      out = fuzzBuzz.fuzzBuzz( 21 );
+      Assert.assertEquals( ConstantesUtils.FUZZ + ConstantesUtils.BAZ, out );
    }
    
    @Test(expected = IllegalArgumentException.class)
