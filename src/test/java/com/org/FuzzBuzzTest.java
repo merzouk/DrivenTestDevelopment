@@ -101,6 +101,8 @@ public class FuzzBuzzTest
       Assert.assertEquals( ConstantesUtils.BAZ, out );
       out = fuzzBuzz.fuzzBuzz( 21 );
       Assert.assertEquals( ConstantesUtils.FUZZ + ConstantesUtils.BAZ, out );
+      out = fuzzBuzz.fuzzBuzz( 105 );
+      Assert.assertEquals( ConstantesUtils.FUZZ + ConstantesUtils.BUZZ + ConstantesUtils.BAZ, out );
    }
    
    @Test(expected = IllegalArgumentException.class)
